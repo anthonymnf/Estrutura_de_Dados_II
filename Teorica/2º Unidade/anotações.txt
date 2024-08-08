@@ -1,0 +1,1 @@
+HEAP = Pode ser entendida como uma lista de prioridades, é uma estrutura de dados 
