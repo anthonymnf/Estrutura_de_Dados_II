@@ -1,16 +1,29 @@
-HEAP = Pode ser entendida como uma lista de prioridades, é uma estrutura de dados. 
-- HEAP máximo = Todos os nós pais são maiores que os nós filhos
-- HEAP mínimo = Todos os nós pais são menores que os nós filhos
-Para fazer isso, basta pegar e fazer a árvore, então confere se essa condição é mantida, caso ela não seja nem máximo nem mínimo, então ela não é uma HEAP
+HEAP:
+  HEAP = Pode ser entendida como uma lista de prioridades, é uma estrutura de dados. 
+  - HEAP máximo = Todos os nós pais são maiores que os nós filhos
+  - HEAP mínimo = Todos os nós pais são menores que os nós filhos
+  Para fazer isso, basta pegar e fazer a árvore, então confere se essa condição é mantida, caso ela não seja nem máximo nem mínimo, então ela não é uma HEAP
 
-Construir uma HEAP a partir da lista: L={28, 33, 39, 60, 70, 78, 95}
-RESPOSTA: 
-- HEAP máximo = {95, 78, 70, 60, 39, 33, 28}
-      98                        
-    /     \                  
-   78      70               
-  /  \    /  \                 
-60   39  33   28
+  Construir uma HEAP a partir da lista: L={28, 33, 39, 60, 70, 78, 95}
+  RESPOSTA: 
+  - HEAP máximo = {95, 78, 70, 60, 39, 33, 28}
+          98                        
+        /     \                  
+      78      70               
+      /  \    /  \                 
+    60   39  33   28
 
+Arvore AVL tipos de balanceamento:
+ - LL: Rotaciona uma vez à direita;
+ - RR: Rotaciona uma vez à esquerda;
+ - LR: Rotaciona uma vez à direita e uma vez à esquerda;
+ - RL: Rotaciona uma vez à esquerda e uma vez à direita;
+
+Árvores 2-3: 
+  - Um tipo de árvore q é de busca, mas n é binária. Ela pode ter quantos filhos quiser. A complexidade é muito boa, proporcional ao log;
+  - Uma de suas caracteristicas é q todos os nós folhas estão no último nível;
+  - Os nós podem ser simples ou duplos. Nós duplos precisam ter 3 filhos;
+  - Cada nó pode ter duas Keys, uma esquerda e uma direita, ou seja é um nó duplo. Onde cada nó tem ponteiros para outros 3 nós(esquerdo, central, direito);
+  
 
 
