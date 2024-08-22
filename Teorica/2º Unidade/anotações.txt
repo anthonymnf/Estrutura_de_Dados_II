@@ -24,6 +24,10 @@ Arvore AVL tipos de balanceamento:
   - Uma de suas caracteristicas é q todos os nós folhas estão no último nível;
   - Os nós podem ser simples ou duplos. Nós duplos precisam ter 3 filhos;
   - Cada nó pode ter duas Keys, uma esquerda e uma direita, ou seja é um nó duplo. Onde cada nó tem ponteiros para outros 3 nós(esquerdo, central, direito);
-  
+
+Tabela HASH(Ou de dispersão):
+  - A dimensão da tabela Hash costuma ser um número primo quando o método usado é o resto da divisão, ou seja, o mod();
+  - Método da dobra pode ser de 2 em 2, 3 em 3, e etc... Dps de "dobrado como se fosse uma folha de papel" somamos os números sobrepostos. Nesse ponto podemos ignorar as "sobras" da soma desde o começo ou apenas no final. E então a partir desse número escolhemos um número multiplo de 10 para ser o tamanho do vetor;
+  - Método da multiplicação: Vou cortando elementos da direita e da esquerda até ter a quantidade de bits nescessárias
 
 
