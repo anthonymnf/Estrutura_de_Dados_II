@@ -1,0 +1,6 @@
+Erros comuns: 
+- Ter arquivos temporários;
+- README mal feito;
+- Enviar o arquivo .exe;
+- Não manter um padrão nos commits;
+- Mensagens de Push relevantes;
