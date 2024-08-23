@@ -29,5 +29,12 @@ Tabela HASH(Ou de dispersão):
   - A dimensão da tabela Hash costuma ser um número primo quando o método usado é o resto da divisão, ou seja, o mod();
   - Método da dobra pode ser de 2 em 2, 3 em 3, e etc... Dps de "dobrado como se fosse uma folha de papel" somamos os números sobrepostos. Nesse ponto podemos ignorar as "sobras" da soma desde o começo ou apenas no final. E então a partir desse número escolhemos um número multiplo de 10 para ser o tamanho do vetor;
   - Método da multiplicação: Vou cortando elementos da direita e da esquerda até ter a quantidade de bits nescessárias
-
+  Depois de definir a função Hash e o tamanho da tabela, partimos para o tratamento de colisões no qual temos dois tipos:
+    - Endereçamento Aberto:
+      * Sondagem Linear;
+      * Sondagem quadrática;
+      * Duplo hash.
+    - Endereçamento Encadeado:
+      * Exterior;
+      * Interior.
 
